@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">College Guide</string>
+    <string name="link1">
+        <a href="https://www.jntuk.edu.in/">JNTUK</a>
+    </string>
+    <string name="link2">
+        <a href="https://www.andhrauniversity.edu.in/">AU</a>
+    </string>
+    <string name="link3">
+        <a href="http://www.svcolleges.edu.in/">SVEC</a>
+    </string>
+    <string name="link4">
+        <a href="http://www.gvpce.ac.in/">GVP</a>
+    </string>
+    <string name="link5">
+        <a href="http://www.svecw.edu.in/">SVECW</a>
+    </string>
+</resources>

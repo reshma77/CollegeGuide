@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="@drawable/bg0"
+    android:padding="25dp">
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="login"
+        android:padding="20sp"
+        android:text="Login"
+        android:backgroundTint="@color/blue"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="250sp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:onClick="register"
+        android:padding="20sp"
+        android:text="register"
+        android:backgroundTint="@color/blue"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+    <!--
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:onClick="admin"
+        android:padding="20sp"
+        android:text="admin"
+        android:backgroundTint="@color/blue"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+    -->
+</LinearLayout>
